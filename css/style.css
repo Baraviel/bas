@@ -1,0 +1,1674 @@
+@media (prefers-reduced-motion:no-preference){
+    :root {
+        scroll-behavior: smooth;
+    }
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    text-decoration: none;
+}
+
+html, body {
+    width: 100%;
+    height: 100%;
+}
+body{
+    background-color: #f2e0d0;
+}
+
+.wrapper {
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.main{
+    flex: 1 1 auto;
+}
+
+.header {
+    z-index: 2;
+    position: fixed;
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: #400101;
+}
+
+.logo {
+    height: 100%;
+    display: table;
+    float: left;
+}
+
+.logo h1 {
+    padding-left: 30px;
+    font-size: 42px;
+    font-weight: 800;
+    color: #8C2703;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Segoe UI';
+}
+
+.navigation {
+    float: right;
+    height: 100%;
+}
+
+.navigation a {
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 30px;
+}
+
+.navigation a:last-child {
+    padding-right: 140px;
+}
+
+.navigation a li {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+    color: #8C8B88;
+    font-family: 'Segoe UI';
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.banner {
+    width: 100%;
+    height: 700px;
+    padding: 80px 0px 0px 0px;
+}
+
+.banner img {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+.banner h1{
+    position: absolute;
+    text-align: center;
+    top: 500px;
+    font-size: 48px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+    color: #f2e0d0;
+    width: 100%;
+}
+
+.banner h4{
+    position: absolute;
+    text-align: center;
+    top: 600px;
+    font-size: 48px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+    color: #f2e0d0;
+    width: 100%;
+}
+
+.button {
+    display: flex;
+    justify-content: center;
+}
+.button button {
+    position: absolute;
+    top: 75%;
+    background-color: #f2bc79;
+    border-radius: 5px;
+    border: none;
+    color: #131313;
+    font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    height: 50px;
+    width: 200px;
+    text-align: center;
+}
+
+.button a {
+    color: #131313;
+}
+
+.line {
+    width: 100%;
+    height: 100px;
+}
+
+/*о нас*/
+.about {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.about_text {
+    padding-top: 65px;
+    width: 50%;
+    float: left;
+}
+
+.about_text h1 {
+    font-size: 36px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+}
+
+.about_text h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.about_photo {
+    width: 50%;
+    float: right;
+}
+
+.about_photo img {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+/*меню*/
+
+.about1 {
+    width: 70%;
+    height: 400px;
+    margin: 0 auto;
+}
+
+.about_text1 {
+    padding-top: 65px;
+    width: 50%;
+    float: right;
+}
+
+.about_text1 h1 {
+    font-size: 36px;
+    font-family: 'Segoe UI';
+    font-weight: 700;
+}
+
+.about_text1 h4 {
+    margin-top: 10px;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.about_photo1 {
+    width: 50%;
+    float: right;
+}
+
+.about_photo1 img {
+    width: 120px;
+    height: 120px;
+    padding: 20px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+
+.tort_menu {
+    width: 70%;
+    height: 500px;
+    margin: 0 auto;
+}
+
+.tort_menu_text{
+    text-align: center;
+}
+
+.tort_menu_text h1{
+    font-size: 36px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.tort_menu_text h4{
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.conit {
+    width: 100%;
+    height: 100%;
+}
+
+.conit1 {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.for_slick_slider{
+    display: flex;
+}
+
+.for_slick_slider .item{
+    position: relative;
+    height: 300px;
+    width: 250px;
+    margin: 25px;
+}
+
+.for_slick_slider .item img{
+    width: 200;
+    height: 300px;
+    transition: all linear .4s;
+}
+
+.for_slick_slider .slick-center img{
+    transform: scale(1.2);
+}
+
+.autoplay button {
+    
+    display: none;
+    visibility: hidden;
+}
+/*подвал*/
+.footer {
+    width: 100%;
+    height: 200px;
+    background-color: #0D0D0D;
+}
+
+.footer_main {
+    width: 70%;
+    height:100%;
+    margin: 0 auto;
+    
+}
+
+.footer_about {
+    margin-left: 30px;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.footer_about h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+.footer_about1 {
+    margin-left: 70px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.footer_about1 h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about1 h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about1 h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about2 {
+    margin-left: 30px;
+    width: 30%;
+    height: 100%;
+    float: right;
+}
+
+.footer_about2 h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about2 h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about2 h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+
+
+.about_s{
+    width: 100%;
+    height: 700px;
+    padding: 80px 0px 0px 0px;
+}
+.about_s_main{
+    margin-top: 100px;
+    width: 70%;
+    margin: 0 auto;
+}
+.map {
+    width: 50%;
+    float: right;
+}
+
+.line_1 {
+    width: 100%;
+    height: 40px;
+}
+
+.logo_about{
+    width: 50%;
+    height: 350px;
+    float: left;
+}
+
+.logo_about h1{
+    font-size: 100px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.about_s_info{
+    width: 50%;
+    float: left;
+}
+
+.about_s_info h1 {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+.about_s_info h4 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.about_s_info_1{
+    width: 50%;
+    float: left;
+}
+.about_s_info_2{
+    width: 50%;
+    float: right;
+}
+.about_s_info_3{
+    width: 100%;
+    float: left;
+}
+
+.about_s_info_3 h4 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+
+
+
+@media only screen and (min-device-width : 1024px) and (min-device-height : 600px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner h1{
+        top: 330px;
+        font-size: 32px;
+    }
+    
+    .banner h4{
+        top: 390px;
+        font-size: 32px;
+    }
+    
+    .button {
+        display: none;
+    }
+
+     /*о нас*/
+.about {
+    width: 90%;
+    height: 300px;
+}
+
+.about_text {
+    padding-top: 0px;
+}
+
+.about_text h1 {
+    font-size: 32px;
+}
+
+.about_text h4 {
+    margin-top: 6px;
+    font-size: 16px;
+}
+.about_photo{
+    padding-top: 32px;
+}
+
+.about_photo img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+}
+
+    /*меню*/
+
+    .about1 {
+        width: 90%;
+        height: 300px;
+    }
+    
+    .about_text1 {
+        padding-top: 65px;
+    }
+    
+    .about_text1 h1 {
+        font-size: 32px;
+    }
+    
+    .about_text1 h4 {
+        margin-top: 6px;
+        font-size: 16px;
+    }
+    
+    .about_photo1 {
+        padding-top: 65px;
+    }
+    
+    .about_photo1 img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-right: 5px;
+        margin-bottom: 5x;
+    }
+    
+    .tort_menu {
+        width: 90%;
+        height: 500px;
+    }
+
+    .footer_main {
+        width: 100%;
+    }
+
+    .footer_about1 {
+        margin-left: 30px;
+    }
+    .footer_about2 {
+        margin-left: 30px;
+    }
+
+    .about_s_main {
+        width: 90%;
+    }
+
+    .logo_about h1 {
+        font-size: 75px;
+    }
+
+    .map_inf {
+        padding-top: 27px;
+        padding-left: 50px;
+        width: 400px;
+        height: 500px;
+    }
+
+    .email {
+        padding-top: 20px;
+    }
+}
+@media only screen and (min-device-width : 1280px) and (min-device-height : 720px) {
+    .banner {
+        height: 400px;
+    }
+
+    .banner h1{
+        top: 330px;
+        font-size: 32px;
+    }
+    
+    .banner h4{
+        top: 390px;
+        font-size: 32px;
+    }
+    
+    .button {
+        display: none;
+    }
+
+     /*о нас*/
+.about {
+    width: 70%;
+    height: 300px;
+}
+
+.about_text {
+    padding-top: 0px;
+}
+
+.about_text h1 {
+    font-size: 32px;
+}
+
+.about_text h4 {
+    margin-top: 6px;
+    font-size: 16px;
+}
+.about_photo{
+    padding-top: 32px;
+}
+
+.about_photo img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+}
+
+    /*меню*/
+
+    .about1 {
+        width: 75%;
+        height: 300px;
+    }
+    
+    .about_text1 {
+        padding-top: 65px;
+    }
+    
+    .about_text1 h1 {
+        font-size: 32px;
+    }
+    
+    .about_text1 h4 {
+        margin-top: 6px;
+        font-size: 16px;
+    }
+    
+    .about_photo1 {
+        padding-top: 65px;
+    }
+    
+    .about_photo1 img {
+        width: 100px;
+        height: 100px;
+        padding: 10px;
+        margin-right: 5px;
+        margin-bottom: 5x;
+    }
+    
+    .tort_menu {
+        width: 90%;
+        height: 450px;
+    }
+
+    .footer_main {
+        width: 100%;
+    }
+
+    .footer_about1 {
+        margin-left: 30px;
+    }
+    .footer_about2 {
+        margin-left: 30px;
+    }
+
+    .logo_about h1 {
+        font-size: 85px;
+    }
+
+    .map_inf {
+        padding-top: 27px;
+        padding-left: 50px;
+        width: 550px;
+        height: 600px;
+    }
+}
+
+@media only screen and (min-device-width : 1920px) and (min-device-height : 1080px) {
+    @media (prefers-reduced-motion:no-preference){
+        :root {
+            scroll-behavior: smooth;
+        }
+    }
+    
+    *{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+        text-decoration: none;
+    }
+    
+    html, body {
+        width: 100%;
+        height: 100%;
+    }
+    body{
+        background-color: #f2e0d0;
+    }
+    
+    .header {
+        z-index: 2;
+        position: fixed;
+        width: 100%;
+        height: 80px;
+        display: block;
+        background-color: #400101;
+    }
+    
+    .logo {
+        height: 100%;
+        display: table;
+        float: left;
+    }
+    
+    .logo h1 {
+        padding-left: 30px;
+        font-size: 42px;
+        font-weight: 800;
+        color: #8C2703;
+        height: 100%;
+        display: table-cell;
+        vertical-align: middle;
+        font-family: 'Segoe UI';
+    }
+    
+    .navigation {
+        float: right;
+        height: 100%;
+    }
+    
+    .navigation a {
+        height: 100%;
+        display: table;
+        float: left;
+        padding: 0px 30px;
+    }
+    
+    .navigation a:last-child {
+        padding-right: 140px;
+    }
+    
+    .navigation a li {
+        display: table-cell;
+        vertical-align: middle;
+        height: 100%;
+        color: #8C8B88;
+        font-family: 'Segoe UI';
+        font-size: 24px;
+        font-weight: 600;
+    }
+    
+    .banner {
+        width: 100%;
+        height: 700px;
+        padding: 80px 0px 0px 0px;
+    }
+    
+    .banner img {
+        position: relative;
+        width: 100%;
+        height: 100%;
+    }
+    .banner h1{
+        position: absolute;
+        text-align: center;
+        top: 500px;
+        font-size: 48px;
+        font-family: 'Segoe UI';
+        font-weight: 700;
+        color: #f2e0d0;
+        width: 100%;
+    }
+    
+    .banner h4{
+        position: absolute;
+        text-align: center;
+        top: 600px;
+        font-size: 48px;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+        color: #f2e0d0;
+        width: 100%;
+    }
+    
+    .button {
+        display: flex;
+        justify-content: center;
+    }
+    .button button {
+        position: absolute;
+        top: 75%;
+        background-color: #f2bc79;
+        border-radius: 5px;
+        border: none;
+        color: #131313;
+        font-size: 24px;
+        font-family: 'Segoe UI';
+        font-weight: 600;
+        height: 50px;
+        width: 200px;
+        text-align: center;
+    }
+    
+    .button a {
+        color: #131313;
+    }
+    
+    .line {
+        width: 100%;
+        height: 100px;
+    }
+    
+    /*о нас*/
+    .about {
+        width: 70%;
+        height: 400px;
+        margin: 0 auto;
+    }
+    
+    .about_text {
+        padding-top: 65px;
+        width: 50%;
+        float: left;
+    }
+    
+    .about_text h1 {
+        font-size: 36px;
+        font-family: 'Segoe UI';
+        font-weight: 700;
+    }
+    
+    .about_text h4 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    .about_photo {
+        width: 50%;
+        float: right;
+    }
+    
+    .about_photo img {
+        width: 120px;
+        height: 120px;
+        padding: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    /*меню*/
+    
+    .about1 {
+        width: 70%;
+        height: 400px;
+        margin: 0 auto;
+    }
+    
+    .about_text1 {
+        padding-top: 65px;
+        width: 50%;
+        float: right;
+    }
+    
+    .about_text1 h1 {
+        font-size: 36px;
+        font-family: 'Segoe UI';
+        font-weight: 700;
+    }
+    
+    .about_text1 h4 {
+        margin-top: 10px;
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    .about_photo1 {
+        width: 50%;
+        float: right;
+    }
+    
+    .about_photo1 img {
+        width: 120px;
+        height: 120px;
+        padding: 20px;
+        margin-right: 10px;
+        margin-bottom: 10px;
+    }
+    
+    .tort_menu {
+        width: 70%;
+        height: 500px;
+        margin: 0 auto;
+    }
+    
+    .tort_menu_text{
+        text-align: center;
+    }
+    
+    .tort_menu_text h1{
+        font-size: 36px;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+    }
+    
+    .tort_menu_text h4{
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    /*подвал*/
+    .footer {
+        position: absolute;
+        width: 100%;
+        height: 200px;
+        background-color: #0D0D0D;
+    }
+    
+    .footer_main {
+        width: 70%;
+        height:100%;
+        margin: 0 auto;
+        
+    }
+    
+    .footer_about {
+        margin-left: 30px;
+        width: 40%;
+        height: 100%;
+        float: left;
+    }
+    
+    .footer_about h1 {
+        margin-top: 10px;
+        color: #F2BC79;
+         font-size: 24px;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+    }
+    
+    .footer_about h4 {
+        margin-top: 10px;
+        color: #F2E0D0;
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    .footer_about h2 {
+        margin-top: 5px;
+        color: #F2E0D0;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    
+    .footer_about1 {
+        margin-left: 70px;
+        width: 20%;
+        height: 100%;
+        float: left;
+    }
+    
+    .footer_about1 h1 {
+        margin-top: 10px;
+        color: #F2BC79;
+         font-size: 24px;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+    }
+    
+    .footer_about1 h4 {
+        margin-top: 10px;
+        color: #F2E0D0;
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    .footer_about1 h2 {
+        margin-top: 5px;
+        color: #F2E0D0;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    .footer_about2 {
+        margin-left: 30px;
+        width: 30%;
+        height: 100%;
+        float: right;
+    }
+    
+    .footer_about2 h1 {
+        margin-top: 10px;
+        color: #F2BC79;
+         font-size: 24px;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+    }
+    
+    .footer_about2 h4 {
+        margin-top: 10px;
+        color: #F2E0D0;
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    .footer_about2 h2 {
+        margin-top: 5px;
+        color: #F2E0D0;
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    
+    
+    
+    
+    .about_s{
+        width: 100%;
+        height: 700px;
+        padding: 80px 0px 0px 0px;
+    }
+    .about_s_main{
+        margin-top: 100px;
+        width: 70%;
+        margin: 0 auto;
+    }
+    .map {
+        width: 50%;
+        float: right;
+    }
+    
+    .line_1 {
+        width: 100%;
+        height: 40px;
+    }
+    
+    .logo_about{
+        width: 50%;
+        height: 350px;
+        float: left;
+    }
+    
+    .logo_about h1{
+        font-size: 100px;
+        font-family: 'Segoe UI';
+        font-weight: 800;
+    }
+    
+    .about_s_info{
+        width: 50%;
+        float: left;
+    }
+    
+    .about_s_info h1 {
+        font-size: 12px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+    .about_s_info h4 {
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 600;
+        margin-top: 10px;
+        margin-bottom: 40px;
+    }
+    
+    .about_s_info_1{
+        width: 50%;
+        float: left;
+    }
+    .about_s_info_2{
+        width: 50%;
+        float: right;
+    }
+    .about_s_info_3{
+        width: 100%;
+        float: left;
+    }
+    
+    .about_s_info_3 h4 {
+        font-size: 18px;
+        font-family: 'Segoe UI';
+        font-weight: 400;
+    }
+}
+
+@media only screen and (min-device-width : 320px) and (max-device-width : 480px) {
+    .banner {
+        height: 400px;
+    }
+    
+    .banner h1{
+        top: 330px;
+        font-size: 32px;
+    }
+    
+    .banner h4{
+        top: 390px;
+        font-size: 32px;
+    }
+    
+    .button {
+        display: none;
+    }
+    .button button {
+        top: -100%;
+        font-size: 18px;
+        height: 34px;
+        width: 160px;
+    }
+    
+    .line {
+        width: 100%;
+        height: 100px;
+    }
+    
+    /*о нас*/
+.about {
+    width: 90%;
+    height: 300px;
+}
+
+.about_text {
+    padding-top: 0px;
+}
+
+.about_text h1 {
+    font-size: 32px;
+}
+
+.about_text h4 {
+    margin-top: 6px;
+    font-size: 16px;
+}
+.about_photo{
+    padding-top: 32px;
+}
+
+.about_photo img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+}
+
+
+    /*меню*/
+
+.about1 {
+    width: 90%;
+    height: 300px;
+}
+
+.about_text1 {
+    padding-top: 65px;
+}
+
+.about_text1 h1 {
+    font-size: 32px;
+}
+
+.about_text1 h4 {
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.about_photo1 {
+    padding-top: 65px;
+    float: left;
+}
+
+.about_photo1 img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+}
+
+.tort_menu {
+    width: 90%;
+    height: 350px;
+}
+
+/*подвал*/
+
+.footer{ 
+    position: absolute;
+	left: 0;
+	bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.footer_main {
+    width: 100%;
+}
+
+.footer_about {
+    margin-left: 30px;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.footer_about h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+.footer_about1 {
+    margin-left: 70px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.footer_about1 h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about1 h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about1 h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about2 {
+    margin-right: 30px;
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+.footer_about2 h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about2 h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about2 h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+
+.about_s{
+    width: 100%;
+    height: 900px;
+    padding: 80px 0px 0px 0px;
+}
+.about_s_main{
+    margin-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.map {
+    width: 100%;
+    text-align: center;
+}
+
+.line_1 {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.logo_about{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.logo_about h1{
+    font-size: 100px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.about_s_info{
+    width: 100%;
+    text-align: center;
+}
+
+.about_s_info h1 {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+.about_s_info h4 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.about_s_info_1{
+    width: 50%;
+    float: left;
+}
+.about_s_info_2{
+    width: 50%;
+    float: right;
+}
+.about_s_info_3{
+    width: 100%;
+    float: left;
+}
+
+.about_s_info_3 h4 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.navigation a:last-child {
+    padding-right: 30px;
+}
+}
+
+@media only screen and (min-device-width : 1080px) and (min-device-height : 2340px) {
+    .banner {
+        height: 400px;
+    }
+    
+    .banner h1{
+        top: 330px;
+        font-size: 32px;
+    }
+    
+    .banner h4{
+        top: 390px;
+        font-size: 32px;
+    }
+    
+    .button {
+        display: none;
+    }
+    .button button {
+        top: -100%;
+        font-size: 18px;
+        height: 34px;
+        width: 160px;
+    }
+    
+    .line {
+        width: 100%;
+        height: 100px;
+    }
+    
+    /*о нас*/
+.about {
+    width: 90%;
+    height: 300px;
+}
+
+.about_text {
+    padding-top: 0px;
+}
+
+.about_text h1 {
+    font-size: 32px;
+}
+
+.about_text h4 {
+    margin-top: 6px;
+    font-size: 16px;
+}
+.about_photo{
+    padding-top: 32px;
+}
+
+.about_photo img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+}
+
+
+    /*меню*/
+
+.about1 {
+    width: 90%;
+    height: 300px;
+}
+
+.about_text1 {
+    padding-top: 65px;
+}
+
+.about_text1 h1 {
+    font-size: 32px;
+}
+
+.about_text1 h4 {
+    margin-top: 6px;
+    font-size: 16px;
+}
+
+.about_photo1 {
+    padding-top: 65px;
+}
+
+.about_photo1 img {
+    width: 100px;
+    height: 100px;
+    padding: 10px;
+    margin-right: 5px;
+    margin-bottom: 5x;
+}
+
+.tort_menu {
+    width: 90%;
+    height: 500px;
+}
+
+/*подвал*/
+
+.footer{ 
+    position: absolute;
+	left: 0;
+	bottom: 0;
+    width: 100%;
+    height: 200px;
+}
+
+.footer_main {
+    width: 100%;
+}
+
+.footer_about {
+    margin-left: 30px;
+    width: 40%;
+    height: 100%;
+    float: left;
+}
+
+.footer_about h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+.footer_about1 {
+    margin-left: 70px;
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.footer_about1 h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about1 h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about1 h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about2 {
+    margin-right: 30px;
+    width: 20%;
+    height: 100%;
+    float: right;
+}
+
+.footer_about2 h1 {
+    margin-top: 10px;
+    color: #F2BC79;
+     font-size: 24px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.footer_about2 h4 {
+    margin-top: 10px;
+    color: #F2E0D0;
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.footer_about2 h2 {
+    margin-top: 5px;
+    color: #F2E0D0;
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+
+
+.about_s{
+    width: 100%;
+    height: 900px;
+    padding: 80px 0px 0px 0px;
+}
+.about_s_main{
+    margin-top: 100px;
+    width: 90%;
+    margin: 0 auto;
+}
+.map {
+    width: 100%;
+    text-align: center;
+}
+
+.line_1 {
+    width: 100%;
+    height: 40px;
+    margin-bottom: 20px;
+}
+
+.logo_about{
+    width: 100%;
+    height: 200px;
+    text-align: center;
+}
+
+.logo_about h1{
+    font-size: 100px;
+    font-family: 'Segoe UI';
+    font-weight: 800;
+}
+
+.about_s_info{
+    width: 100%;
+    text-align: center;
+}
+
+.about_s_info h1 {
+    font-size: 12px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+.about_s_info h4 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 600;
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.about_s_info_1{
+    width: 50%;
+    float: left;
+}
+.about_s_info_2{
+    width: 50%;
+    float: right;
+}
+.about_s_info_3{
+    width: 100%;
+    float: left;
+}
+
+.about_s_info_3 h4 {
+    font-size: 18px;
+    font-family: 'Segoe UI';
+    font-weight: 400;
+}
+
+.navigation a:last-child {
+    padding-right: 30px;
+}
+}
