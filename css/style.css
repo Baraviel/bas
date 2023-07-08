@@ -1137,7 +1137,7 @@ body{
     
     /*о нас*/
 .about {
-    width: 90%;
+    width: 80%;
     height: 400px;
 }
 
@@ -1155,7 +1155,7 @@ body{
 }
 .about_photo{
     float: right;
-    padding-top: 32px;
+    padding-top: 24px;
 }
 
 .about_photo img {
@@ -1171,7 +1171,7 @@ body{
     /*меню*/
 
 .about1 {
-    width: 90%;
+    width: 80%;
     height: 400px;
 }
 
