@@ -1142,6 +1142,7 @@ body{
 }
 
 .about_text {
+    float: left;
     padding-top: 0px;
 }
 
@@ -1155,10 +1156,12 @@ body{
 }
 
 .about_photo{
+    float: right;
     padding-top: 0px;
 }
 
 .about_photo img {
+    float: right;
     width: 100px;
     height: 100px;
     padding: 10px;
