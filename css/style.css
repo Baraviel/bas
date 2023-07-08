@@ -1192,7 +1192,7 @@ body{
 }
 
 .about_photo1 img {
-	float: right;
+    float: left;
     width: 100px;
     height: 100px;
     padding: 10px;
