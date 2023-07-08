@@ -1154,10 +1154,12 @@ body{
     font-size: 16px;
 }
 .about_photo{
+    float: right;
     padding-top: 32px;
 }
 
 .about_photo img {
+    float: right;
     width: 100px;
     height: 100px;
     padding: 10px;
