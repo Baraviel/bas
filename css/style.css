@@ -1176,7 +1176,6 @@ body{
 
 .about_text1 {
     padding-top: 65px;
-    float: left;
 }
 
 .about_text1 h1 {
@@ -1190,7 +1189,7 @@ body{
 
 .about_photo1 {
     padding-top: 65px;
-    float: right;
+    float: left;
 }
 
 .about_photo1 img {
